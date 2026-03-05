@@ -12,9 +12,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Lake Frances Correlation Matrix Development - March 2026(update)
+### Lake Frances Correlation Matrix Development
 
-## The Correlation Matrix Method
+## The Correlation Matrix Method- March 2026(update)
 
 # Intro
 This document includes the information and coding that was used to create the correlation matrices for Lake Frances soils analytical data. The data includes all collected information for sample location LF 3 - LF 46. To date all parameters were analyzed for locations LF 3 - LF 43. No P or metals data have been collected for locations LF 44-46 at the time of this update (03/04/2026). 
