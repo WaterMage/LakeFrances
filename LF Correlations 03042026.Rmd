@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Lake Frances Correlation Matrix Development
 
-## The Correlation Matrix Method- March 2026(update)
+## The Correlation Matrix Method - March 2026(update)
 
 # Intro
 This document includes the information and coding that was used to create the correlation matrices for Lake Frances soils analytical data. The data includes all collected information for sample location LF 3 - LF 46. To date all parameters were analyzed for locations LF 3 - LF 43. No P or metals data have been collected for locations LF 44-46 at the time of this update (03/04/2026). 
@@ -114,7 +114,7 @@ cor(mydat1,y=NULL, use = "na.or.complete", method = c("spearman"))
 ```
 
 # Table Exporting
-Soil Correlation Table: 0-10 cm bgs 
+Soil Correlation Table: 0-10 cmbgs 
 ```{r}
 dat10tab<-cor(mydat10,y=NULL, use = "na.or.complete", method = c("spearman"))
 print(dat10tab)
@@ -122,14 +122,14 @@ write.csv(dat10tab,"LF_Soil_10_Cor030426.csv",row.names = TRUE)
 ```
 
 
-Soil Correlation Table: 10-20 cm bgs 
+Soil Correlation Table: 10-20 cmbgs 
 ```{r}
 dat20tab<-cor(mydat20,y=NULL, use = "na.or.complete", method = c("spearman"))
 write.csv(dat20tab,"LF_Soil_20_Cor030426.csv",row.names=TRUE)
 ```
 
 
-Soil Correlation Table: 20-30 cm bgs 
+Soil Correlation Table: 20-30 cmbgs 
 ```{r}
 dat30tab<-cor(mydat30,y=NULL, use = "na.or.complete", method = c("spearman"))
 write.csv(dat30tab,"LF_Soil_30_Cor030426.csv", row.names=TRUE)
