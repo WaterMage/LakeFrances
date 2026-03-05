@@ -18,7 +18,13 @@ head(lfran)
 #Opening the tidyverse library for visualization
 library(tidyverse)
 
-#Beginning the data analysis. First determining the overall distribution of the grouped data
+#Beginning the data analysis.
+
+#General Summary of all data variables
+summary(lfran)
+
+
+#Now determining the overall distribution of the grouped data
 #Starting with determining if there is statistical variance within the data based on depth
 
 dSMC<-lfran %>%
@@ -165,5 +171,8 @@ ggplot(aCLAY) +
   aes(x=AREA, y = CLAY_P, color=AREA) +
   geom_jitter() +
   theme(legend.position = "none")
+
+# Determining the number of observations for WEP, TP
+
 
 
