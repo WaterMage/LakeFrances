@@ -1,4 +1,4 @@
-#### Lake Frances - Soil Moiture Content Significant Difference Between Depths
+#### Lake Frances - Soil Moisture Content Significant Difference Between Depths
 
 #Setting UP Working Directory
 getwd()
